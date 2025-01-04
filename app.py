@@ -114,7 +114,7 @@ def custom_css():
         /* Footer styling */
         .footer {
             position: fixed;
-            bottom: 0;
+            bottom: 56px; /* Move the footer higher */
             left: 0;
             right: 0;
             background-color: rgba(0, 0, 0, 0.7); /* Translucent black background */
