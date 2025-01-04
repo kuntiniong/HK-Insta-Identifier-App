@@ -178,6 +178,7 @@ st.markdown(
     """
     <div class="footer">
         © 2025 Kun Tin Iong | 
+        <a href="https://github.com/kuntiniong/HK-Insta-Identifier-App" target="_blank"> Source Code </a>|
         <a href="https://github.com/kuntiniong" target="_blank"> GitHub</a>
     </div>
     """,
