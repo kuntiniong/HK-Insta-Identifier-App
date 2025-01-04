@@ -145,7 +145,7 @@ def custom_css():
 custom_css()
 
 st.title("Hong Kong Instagram Username Identifier")
-st.markdown("###### This app uses a SVM to predict if an IG user is from Hong Kong solely based on username patterns 🚀")
+st.markdown("###### This app uses a SVM to predict if an IG user is from Hong Kong solely based on their usernames🚀")
 
 svm_model, syllable_vocab, scaler = load_model_and_artifacts()
 
@@ -169,7 +169,7 @@ if svm_model and syllable_vocab and scaler:
         st.markdown(
             """
             > Did we get it right? 🤔 Feel free to check out this [repo](https://github.com/kuntiniong/HK-Insta-Identifier) 
-            to further understand how the identifier works and help us improve this project! 💡✨  
+            to better understand how the identifier works and help us improve this project! 💡✨  
             """
         )
 
