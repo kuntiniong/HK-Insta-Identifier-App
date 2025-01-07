@@ -37,6 +37,7 @@ df = df.drop_duplicates(subset=["IG Username"])
 print(f"{original_size - len(df)} duplicated entries removed. {len(df)} entries retained.")
 
 # remove non-alpha characters
+df["IG Username"] = df["IG Username"].astype(str)
 df["IG Username"] = df["IG Username"].apply(lambda x: re.sub(r"[\d._]+", "", x))
 
 # drop empty usernames
